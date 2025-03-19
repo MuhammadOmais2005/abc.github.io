@@ -1,0 +1,1672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            
+  /* font-family: "Schibsted Grotesk", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal; */
+  font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+
+        }
+        i {
+            color: black;
+            font-size: 30px;
+            
+        }
+    .graphic {
+        height: 100vh;
+        background-image: url(demo-restaurant-home-banner-bg.jpg);
+        background-size: cover;
+    }
+
+    .header {
+        z-index: 333;
+        background-color: transparent;
+        position: absolute;
+        color: white;
+    }
+    .fav p {
+        font-size: 20px;
+    }
+    .fav i {
+        font-size: 40px;
+    }
+    .list {
+        font-size: 15px;
+    }
+    .marq h1{
+        font-size: 130px;
+        /* font-family: "Schibsted Grotesk", serif; */
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+    .ad {
+
+        color: white;
+        text-shadow:
+        2px 2px 0px #d39121,  /* Top-right shadow */
+        -2px 2px 0px #d39121, /* Top-left shadow */
+        2px -2px 0px #d39121, /* Bottom-right shadow */
+        -2px -2px 0px #d39121; /* Bottom-left shadow */
+    }
+    .card {
+        width: 300px; height:350px;
+    }
+    /* .circle {
+        width: 50vw;
+        height: 100vh;
+        background-color: #d39121;
+        background-image: url(demo-restaurant-home-banner-pattern.png);
+        border-radius: 100%;
+        position: absolute;
+        margin-top: -100vh;
+    } */
+
+    /* @media screen and (min-width: 800px){
+    
+    .circle {
+    width: 50vw;
+    height: 80vh;
+    background-color: #d39121;
+    background-image: url(demo-restaurant-home-banner-pattern.png);
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -100vh;
+}
+} */
+
+.ddd {
+    width: 210px;
+    margin-left: 500px;
+    position: absolute;
+}
+@media screen and (max-width: 571px){
+    .ddd{
+        display: none;
+    }
+}
+    @media screen and (max-width: 576px){
+    
+    .abc{
+        display: none;
+    }
+}
+.a1{
+        font-size: 70px;
+        text-shadow:
+        2px 2px 0px white,  /* Top-right shadow */
+        -2px 2px 0px white, /* Top-left shadow */
+        2px -2px 0px white, /* Bottom-right shadow */
+        -2px -2px 0px white; /* Bottom-left shadow */
+        font-family: "Schibsted Grotesk", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        color: #d39121;
+    }
+    /* .a2{
+        font-size: 10px;
+    } */
+    .a3{
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 70px;
+        color: white;
+    }
+    .a2 {
+        border: 0px;
+        background-color: black;
+        color: white;
+    }
+
+    @media screen and (max-width: 991px){
+    
+    .circle {
+    width: 400px;
+    height: 400px;
+    background-color: #d39121;
+    background-image: url(demo-restaurant-home-banner-pattern.png);
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -100vh;
+}
+
+.a3{
+        font-size: 60px;
+        /* color: aqua; */
+        line-height: 1;
+    
+}
+    .a1{
+        font-size: 75px;
+        /* color: aqua; */
+        padding: 0px;
+        line-height: 1;
+    }
+.a0{
+    font-size: 12px;
+}
+.a2{
+    font-size: 12px;
+}
+
+/* .ddd {
+    width: 00px;
+    margin-left: 400px;
+    position: absolute;
+} */
+}
+    @media screen and (min-width: 992px){
+    
+    .circle {
+    width: 500px;
+    height: 500px;
+    background-color: #d39121;
+    background-image: url(demo-restaurant-home-banner-pattern.png);
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -90vh;
+    }
+    .a3{
+        font-size: 75px;
+        /* color: aqua; */
+        line-height: 1;
+    
+}
+    .a1{
+        font-size: 95px;
+        /* color: aqua; */
+        padding: 0px;
+        line-height: 1;
+    
+}
+.a0{
+    font-size: 14px;
+}
+.a2{
+    font-size: 16px;
+}
+.eee {
+        font-size: 200px;
+        color: #8d8987;
+        margin-top: -95px;
+    }
+}
+    @media screen and (min-width: 1200px){
+    
+        .circle {
+        width: 600px;
+        height: 600px;
+        background-color: #d39121;
+        background-image: url(demo-restaurant-home-banner-pattern.png);
+        border-radius: 100%;
+        position: absolute;
+        margin-top: -100vh;
+
+
+    }
+    .a3{
+        font-size: 90px;
+        /* color: aqua; */
+        line-height: 1;
+    
+}
+    .a1{
+        font-size: 110px;
+        /* color: aqua; */
+        padding: 0px;
+        line-height: 1;
+    
+}
+.a0{
+    font-size: 18px;
+}
+.a2{
+    font-size: 22px;
+}
+.a2{
+    font-size: 20px;
+}
+.ddd {
+    width: 230px;
+    margin-left: 600px;
+    position: absolute;
+}
+.abc {
+    font-size: 20px;
+}
+.book {
+    font-size: 15px;
+}
+.eee {
+        font-size: 250px;
+        color: #8d8987;
+        margin-top: -115px;
+    }
+
+    }
+@media screen and (min-width: 1400px){
+    
+        .circle {
+        width: 1080px;
+        height: 1080px;
+        background-color: #d39121;
+        background-image: url(demo-restaurant-home-banner-pattern.png);
+        border-radius: 100%;
+        position: absolute;
+        /* margin-top: -100vh; */
+    }
+    .a3, .a1{
+        font-size: 160px;
+        /* color: aqua; */
+}
+    .a1{
+        font-size: 210px;
+        /* color: aqua; */
+}
+.a0{
+    font-size: 30px;
+}
+/* .a2{
+    font-size: 17px;
+
+} */
+.a2{
+    font-size: 35px;
+
+}
+.ddd {
+    width: 300px;
+    margin-left: 1080px;
+    position: absolute;
+}
+.abc {
+    font-size: 30px;
+}
+.book {
+    font-size: 20px;
+}
+.eee {
+        font-size: 290px;
+        color: #8d8987;
+        margin-top: -135px;
+    }
+
+    }
+
+@media screen and (max-width: 991px){
+    .header {
+        background-color: white;
+        /* margin-bottom: 20px; */
+        position: fixed;
+        top: 0px;
+    }
+    .book {
+        color: black;
+    }
+    .ddd {
+    width: 200px;
+    margin-left: 400px;
+    position: absolute;
+}
+}
+@media screen and (max-width: 992px){
+    .eee {
+        font-size: 160px;
+        margin-top: -75px;
+    }
+}
+@media screen and (max-width: 750px){
+    .eee {
+        font-size: 110px;
+        margin-top:-58px;
+    }
+}
+@media screen and (max-width: 500px){
+    .eee {
+        font-size: 100px;
+        margin-top:-45px;
+    }
+}
+.im{
+    width: 500px;
+    height: 500px;
+}
+@media screen and (max-width: 600px){
+    .im {
+        width: 300px;
+        height: 300px;
+    }
+}
+.ag,.ah {
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes move{
+    0%{}
+    50%{ margin-top: 200px; transform: rotate(90deg);}
+}
+.ddd{
+    animation-name: ooo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes ooo{
+    0%{}
+    50%{margin-top: -10px;}
+}
+
+.book button{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.book button:hover{
+    background-color: white;
+    color: black;
+}
+@media screen and (max-width: 991px){
+    .book button{
+        color: black;
+        border: 1px solid black;
+    }
+    .book button:hover{
+        color: white;
+        background-color: black;
+    }
+}
+.gr {
+        font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+@media screen and (min-width: 992px){
+    .navs {
+        margin-left: -95px;
+    }
+}
+
+    </style>
+</head>
+<body style="overflow-x: hidden;">
+
+
+<div class="container-fluid">
+    <div class="row align-item-center ">
+        <div class="graphic col align-item-center"></div>
+        
+    <div class="container-fluid header py-3" style="">
+        <div class="row  align-items-center justify-content-around">
+            <div class="col-auto align-content-center align-items-center">
+                <img src="logo.webp" class="col-auto d-none d-lg-block">
+                <img src="demo-restaurant-logo-black.webp" class="col-auto d-lg-block d-lg-none">
+            </div>
+            <div class="col-auto d-sm-none d-xl-block d-md-none d-lg-block d-xxl-block abc">
+                <div class="row align-items-center py-sm-4 py-lg-0 navs">
+                    <span class="col">HOME</span>
+                    <span class="col">ABOUT</span>
+                    <span class="col">MENU</span>
+                    <span class="col">GALLERY</span>
+                    <span class="col">CHEFS</span>
+                    <span class="col">BLOG</span>
+                    <span class="col">CONTACT</span>
+                </div>
+
+
+            </div>
+
+            <div class="col-auto align-items-center align-content-center g-0">
+                <div class=" row align-items-center">
+                    <span class="align-item-center align-content-center col-auto book p-0"><button class="py-2 px-4 btt brr" style="border-radius: 50px; line-height: 1;">BOOK A TABLE</button></span>
+                    <span class="col-auto d-lg-none">
+                        <i class="fa-solid fa-bars "></i>
+                    </span>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row justify-content-center align-items-center box g-0">
+<div class="circle col w-md-400px h-md-400px w-lg-400px h-lg-400px w-sm-400px h-sm-400px g-0">
+
+    <div class="row flex-column justify-content-center align-items-center w-100 h-100 g-0">
+        <span class="col-12 text-center  a0">EXPEREINECE THE TASTE OF ITALY</span>
+        <span class="col-12 text-center a1 p-0 gr">GREAT DINING</span>
+        <span class="col-12 text-center a3">RESTAURANT</span>
+        <div class="row align-content-center justify-content-center">
+            <button class=" col-5 a2 py-3 px-0">AUTHENCTIC EXPERIENCE</button>
+            <img src="demo-restaurant-home-01.webp" alt="" style="" class="ddd">
+        </div>
+        
+        
+
+
+    </div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid" style="overflow: hidden; margin-top: 0px; position: relative;">
+    <div class="row justify-content-end dis " style="overflow: hidden;">
+        <div class="ag" style="background-image: url(demo-restaurant-home-03-removebg-preview.png); height: 200px; width: 200px; position: absolute; background-size: cover; margin-top: 100px; margin-right: -20px;">
+        </div>
+    </div>
+    <div class="row justify-content-start dis" style="overflow-y: hidden;">
+        <div class="ah" style="background-image: url(demo-restaurant-home-02-removebg-preview.png); height: 150px; width: 150px; position: absolute; background-size: cover; margin-top: 330px; margin-left: -30px;">
+        </div>
+    </div>
+    <div class="row justify-content-evenly align-items-center px-5" style="background-color: #f8f9fa; height: auto; overflow-y: hidden;">
+        <span style="font-weight: bold; font-size: px; color: #dad9d8;" class="text-center eee" class="col">EXPEREINCE</span>
+        <div class="col-3 im" style="background-image: url(demo-restaurant-home-04.webp); background-size: cover;"></div>
+        <div class="col-3 py-5" style="width: 320px; color: white;">
+            <div class="row flex-column justify-content-center">
+                <span class="col-12 px-0" style="font-size: 52px; color: black; line-height: 1;">WONDERFUL DINING</span>
+                <span class="col-12 px-0" style="font-size: 52px; color: black; line-height: 1;">EXPEREINCE & FOOD.</span>
+                <span class="col-12 px-0" style="color: #8d8987; font-family: Schibsted Grotesk; text-align: justify;">Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</span>
+                <div class="row flex-row align-items-center justify-content-between">
+                    <button class="col py-2 px-0" style="font-size: 13px; color: white; background-color: black; border: 0px;">ABOUT RESTURANT</button>
+                    <div class="col"><i class="fa-solid fa-phone" style="font-size: 20px; color: #d39121;"></i>
+                        <span style="font-size: 15px; color: #8d8987;">1-800-222-000</span>
+                    </div>
+                </div>               
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="container-fluid">
+    <div class="row justify-content-around align-items-center pt-3" style="background-color: #f8f9fa;">
+
+        <div class="w-auto py-3">
+            <div class="row  align-items-center">
+                <i class="fa-solid fa-truck col-4 w-auto  text-center" style="border-radius: 100%; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); padding: 25px 24px; background-color: white; color: #d39121;"></i>
+                <div class="row col flex-column p-0" style="margin-left: 15px;">
+                    <span class="col" style="font-size: 20px;">FAST DELIVERY</span>
+                    <span class="col"  style="color: #8d8987; font-family: Schibsted Grotesk;">Within 30 minutes</span>
+                </div>
+            </div>
+        </div>
+        <div class="w-auto py-3 mx-5">
+            <div class="row  align-items-center">
+                <i class="fa-solid fa-utensils col-4  w-auto  text-center" style="border-radius: 100%; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); padding: 26px 31px; background-color: white;  color: #d39121;"></i>
+                <div class="row col flex-column p-0" style="margin-left: 15px;">
+                    <span class="col" style="font-size: 20px;">ABSOLUTE</span>
+                    <span class="col"  style="color: #8d8987; font-family: Schibsted Grotesk;">Best buffet restaurant</span>
+                </div>
+            </div>
+        </div>
+        <div class="w-auto py-3">
+            <div class="row  align-items-center">
+                <i class="fa-solid fa-truck-pickup col-4  w-auto  text-center" style="border-radius: 100%; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); padding: 28px 27px; background-color: white;  color: #d39121;"></i>
+                <div class="row col flex-column p-0" style="margin-left: 15px;">
+                    <span class="col" style="font-size: 20px;">FAST DELIVERY</span>
+                    <span class="col" style="color: #8d8987; font-family: Schibsted Grotesk;">Grab your food order</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    .box {
+    animation-name: come;
+    animation-duration: 7s;
+}
+@keyframes come{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+}
+.ji, .jo {
+    color: #8d8987;
+}
+.jp:hover .ji {
+    color: #d39121;
+}
+.jp:hover .jo {
+    border-bottom: 1px solid black ;
+}
+</style>
+
+
+<div class="container-fluid" style="padding: 10px; padding-top: 80px; background-color: #f8f9fa;">
+    <div class="row flex-column align-content-center justify-content-center w-100">
+        <span style="font-size: 10px; color: red; font-family: Schibsted Grotesk; line-height: 0; font-weight: bold;" class="col text-center">-CHOOSE DELICIOUS-</span>
+        <span style="font-size: 50px;" class="col text-center">POPULAR MENU</span>
+    </div>
+</div>
+
+<div class="container-fluid" style="background-color: #f8f9fa;">
+    <div class="row align-items-center justify-content-center px-5">
+        <div class="col-md justify-content-center align-content-center  py-3 fav" style="background-color: transparent;">
+            <div class="row justify-content-center jp">
+                <i class="fa-solid fa-champagne-glasses col text-center ji"></i>
+                <p class="my-0 text-center jo" style="font-family: Schibsted Grotesk;">Drinks</p>
+            </div>
+        </div>
+        <div class="col-md justify-content-center align-content-center py-3 fav" style="background-color: transparent;">
+            <div class="row justify-content-center jp">
+                <i class="fa-solid fa-cookie col text-center ji"></i>
+                <p class="my-0 text-center jo" style="font-family: Schibsted Grotesk;">Cookie</p>
+            </div>
+        </div>
+        <div class="col-md justify-content-center align-content-center py-3 fav" style="background-color: transparent;">
+            <div class="row justify-content-center jp">
+                <i class="fa-solid fa-burger col text-center ji"></i>
+                <p class="my-0 text-center jo" style="font-family: Schibsted Grotesk;">Burger</p>
+                
+            </div>
+        </div>
+        <div class="col-md justify-content-center align-content-center py-3 fav" style="background-color: transparent;">
+            <div class="row justify-content-center jp">
+                <i class="fa-solid fa-pizza-slice col text-center ji"></i>
+                <p class="my-0 text-center jo" style="font-family: Schibsted Grotesk;">Pizza</p>
+            </div>
+        </div>
+
+</div>
+</div>
+
+<style>
+    .ju {
+        /* margin-left: 0px; */
+        transition: 1s;
+        width: 500px;
+        position: relative;
+        left: 0px;
+        font-size: 15px;
+    }
+    @media screen and (max-width: 600px){
+        .ju{
+            width: 450px;
+        }
+    }
+
+    .ju:hover{
+        cursor: pointer;
+        position: relative;
+        left: 30px;
+    }
+    .ss, .tt{
+        color: #8d8987;
+        font-family: Schibsted Grotesk;
+    }
+</style>
+
+
+<!-- <div class="container-fluid  list pp p-0" style="border: 5px solid salmon; background-color: #d39121;">
+            <div class="row justify-content-around p-0">
+            <div class="col-5-lg py-3 ju">
+                <div class="row align-items-center justify-content-center" style="background-color: red;">
+                    <div class="" style="width: 100px; height: 100px; border-radius: 100%; background-image: url(demo-restaurant-tab-02.jpg); float: left;"></div>
+                <div class="col">
+                    <div class="row align-items-center">
+                        <span class="col">Boiled organic egg</span>
+                        <div class="col"><hr style="height: 0px; border-bottom: 2px dotted beige;"></div>
+                        <span class="col-2 text-end px-0">$12.00</span>
+                    </div>
+                    <span>Lorem Epsum has been the industry.</span>
+                </div>
+                </div>
+            </div>
+            <div class="col-5-lg py-3 ju">
+                <div class="row align-items-center" style="background-color: red;">
+                    <div class="" style="width: 100px; height: 100px; border-radius: 100%; background-image: url(demo-restaurant-tab-03.jpg); float: left;"></div>
+                <div class="col">
+                    <div class="row align-items-center">
+                        <span class="col">Medium spicy chips</span>
+                        <div class="col"><hr style="height: 0px; border-bottom: 2px dotted beige;"></div>
+                        <span class="col-2 text-end px-0">$12.00</span>
+                    </div>
+                    <span>Lorem Epsum has been the industry.</span>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>            
+    </div>
+</div>
+
+ -->
+
+
+<!-- 2 -->
+
+
+<div class="container-fluid  list pp p-0" style="background-color: #f8f9fa;">
+    <div class="row justify-content-around p-0">
+    <div class="col-5-md py-3 ju px-5">
+        <div class="row align-items-center justify-content-center" style="background-color: transparent;">
+            <div class="" style="width: 100px; height: 100px; border-radius: 100%; background-image: url(demo-restaurant-tab-01.jpg); float: left;"></div>
+        <div class="col">
+            <div class="row align-items-center">
+                <span class="col-6">Boiled organic egg</span>
+                <div class="col"><hr style="height: 0px; border-bottom: 2px dotted #8d8987; background-color: #8d8987;"></div>
+                <span class="col-2 text-end px-0">$12.00</span>
+            </div>
+            <span class="ss">Lorem Epsum has been the industry.</span>
+        </div>
+        </div>
+    </div>
+    <div class="col-5-lg py-3 ju px-5">
+        <div class="row align-items-center" style="background-color: transparent;">
+            <div class="" style="width: 100px; height: 100px; border-radius: 100%; background-image: url(demo-restaurant-tab-04.jpg); float: left;"></div>
+        <div class="col">
+            <div class="row align-items-center">
+                <span class="col-6">Boiled organic egg</span>
+                <div class="col"><hr style="height: 0px; border-bottom: 2px dotted #8d8987; background-color: #8d8987;"></div>
+                <span class="col-2 text-end px-0">$12.00</span>
+            </div>
+            <span class="ss">Lorem Epsum has been the industry.</span>
+        </div>
+        </div>
+    </div>
+</div>
+</div>            
+</div>
+</div>
+<div class="container-fluid  list pp p-0" style="background-color: #f8f9fa;">
+    <div class="row justify-content-around p-0">
+    <div class="col-5-lg py-3 ju px-5">
+        <div class="row align-items-center justify-content-center" style="background-color: transparent">
+            <div class="" style="width: 100px; height: 100px; border-radius: 100%; background-image: url(demo-restaurant-tab-02.jpg); float: left;"></div>
+        <div class="col">
+            <div class="row align-items-center">
+                <span class="col-6">Boiled organic egg</span>
+                <div class="col"><hr style="height: 0px; border-bottom: 2px dotted #8d8987; background-color: #8d8987;"></div>
+                <span class="col-2 text-end px-0">$12.00</span>
+            </div>
+            <span class="ss">Lorem Epsum has been the industry.</span>
+        </div>
+        </div>
+    </div>
+    <div class="col-5-lg py-3 ju px-5">
+        <div class="row align-items-center" style="background-color: transparent;">
+            <div class="" style="width: 100px; height: 100px; border-radius: 100%; background-image: url(demo-restaurant-tab-05.jpg); float: left;"></div>
+        <div class="col">
+            <div class="row align-items-center">
+                <span class="col-6">Boiled organic egg</span>
+                <div class="col"><hr style="height: 0px; border-bottom: 2px dotted #8d8987; background-color: #8d8987;"></div>
+                <span class="col-2 text-end px-0">$12.00</span>
+            </div>
+            <span class="ss">Lorem Epsum has been the industry.</span>
+        </div>
+        </div>
+    </div>
+</div>
+</div>            
+</div>
+</div>
+<div class="container-fluid  list pp p-0" style="background-color: #f8f9fa;">
+    <div class="row justify-content-around p-0">
+    <div class="col-5-lg py-3 ju px-5">
+        <div class="row align-items-center justify-content-center" style="background-color: transparent">
+            <div class="" style="width: 100px; height: 100px; border-radius: 100%; background-image: url(demo-restaurant-tab-03.jpg); float: left;"></div>
+        <div class="col">
+            <div class="row align-items-center">
+                <span class="col-6">Boiled organic egg</span>
+                <div class="col"><hr style="height: 0px; border-bottom: 2px dotted #8d8987; background-color: #8d8987;"></div>
+                <span class="col-2 text-end px-0">$12.00</span>
+            </div>
+            <span class="ss">Lorem Epsum has been the industry.</span>
+        </div>
+        </div>
+    </div>
+    <div class="col-5-lg py-3 ju px-5">
+        <div class="row align-items-center" style="background-color: transparent;">
+            <div class="" style="width: 100px; height: 100px; border-radius: 100%; background-image: url(demo-restaurant-tab-06.jpg); float: left;"></div>
+        <div class="col">
+            <div class="row align-items-center">
+                <span class="col-6">Boiled organic egg</span>
+                <div class="col"><hr style="height: 0px; border-bottom: 2px dotted #8d8987; background-color: #8d8987;"></div>
+                <span class="col-2 text-end px-0">$12.00</span>
+            </div>
+            <span class="ss">Lorem Epsum has been the industry.</span>
+        </div>
+        </div>
+    </div>
+</div>
+</div>            
+</div>
+</div>
+<!-- <div class="container-fluid  list pp p-" style="background-color: #f8f9fa;">
+    <div class="row justify-content-around p-0">
+    <div class="col-5-lg py-3 ju px-5">
+        <div class="row align-items-center justify-content-center" style="background-color: transparent;">
+            <div class="" style="width: 100px; height: 100px; border-radius: 100%; background-image: url(demo-restaurant-tab-03.jpg); float: left;"></div>
+        <div class="col">
+            <div class="row align-items-center">
+                <span class="col">Boiled organic egg</span>
+                <div class="col"><hr style="height: 0px; border-bottom: 2px dotted #8d8987; background-color: #8d8987;"></div>
+                <span class="col-2 text-end px-0">$12.00</span>
+            </div>
+            <span class="ss">Lorem Epsum has been the industry.</span>
+        </div>
+        </div>
+    </div>
+    <div class="col-5-lg py-3 ju px-5">
+        <div class="row align-items-center" style="background-color: transparent;">
+            <div class="" style="width: 100px; height: 100px; border-radius: 100%; background-image: url(demo-restaurant-tab-06.jpg); float: left;"></div>
+        <div class="col">
+            <div class="row align-items-center">
+                <span class="col-6">Boiled organic egg</span>
+                <div class="col"><hr style="height: 0px; border-bottom: 2px dotted #8d8987; background-color: #8d8987;"></div>
+                <span class="col-2 text-end px-0">$12.00</span>
+            </div>
+            <span class="ss">Lorem Epsum has been the industry.</span>
+        </div>
+        </div>
+    </div>
+</div>
+</div>            
+</div>
+</div> -->
+
+
+
+
+
+<div class="container-fluid p-0" style="background-color: #f8f9fa;">
+    <div class="row align-items-center justify-content-center p-4" style="padding-bottom: 70px;">
+        <span class="w-auto text-end px-2 py-2">
+            <button style="background-color: red; color: white; font-size: 13px; border: 0px; border-radius: 30px;font-family: Schibsted Grotesk;" class="px-3 py-1">Masterchef</button>
+        </span>
+        <span class="w-auto text-end px-2 py-2" style="color: #8d8987; font-size: 13px; font-family: Schibsted Grotesk;"> Unique and delicious dishes from the worlds best <span style="border-bottom: 1px solid black; color: #363535; font-family: Schibsted Grotesk;">masterchefs.</span></span>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid" style="padding: 10px; padding-top: 60px; padding-bottom: 30px; background-color: #f8f9fa;">
+    <div class="row flex-column align-content-center justify-content-center w-100">
+        <span style="font-size: 10px; color: red; font-family: Schibsted Grotesk; font-weight: bold; line-height: 0;" class="col text-center">-SPECIAL CHOICE-</span>
+        <span style="font-size: 50px;" class="col text-center">POPULAR DISHES</span>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<style>
+    @media screen and (min-width: 0px){
+        .kkk{
+            height: 150px;
+        }
+        .rrr{
+            width: 70px; 
+            height: 70px; 
+            font-size: 12px;
+        }
+    }
+    @media screen and (min-width: 576px){
+        .kkk{
+            height: 200px;
+        }
+        .rrr{
+            width: 90px; 
+            height: 90px; 
+            font-size: 14px;
+        }
+    }
+    @media screen and (min-width: 767px){
+        .kkk{
+            height: 250px;
+        }
+        .rrr{
+            width: 100px; 
+            height: 100px; 
+            font-size: 16px;
+        }
+    }
+    @media screen and (min-width: 992px){
+        .kkk{
+            height: 300px;
+        }
+        .rrr{
+            width: 110px; 
+            height: 110px;
+            font-size: 18px; 
+        }
+    }
+    @media screen and (min-width: 1200px){
+        .kkk{
+            height: 380px;
+        }
+        .rrr{
+            width: 120px; 
+            height: 120px; 
+            font-size: 20px;
+        }
+    }
+    .kkk{
+        margin-right: 20px;
+    }
+    .jjj{
+        opacity: 0;
+    }
+    .kkk:hover .jjj{
+        opacity: 1;
+    }
+    /* .anim {
+        transition: 100s;
+        animation-name: left;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+}
+
+@keyframes left{
+    0%{}
+    20%{margin-left: -200px;}
+    40%{margin-left: -400px;}
+    60%{margin-left: -600px;}
+    80%{margin-left: -800x;}
+    100%{margin-left: -1000x;}
+} */
+</style>
+
+
+
+
+<div class="container-fluid anim" style="background-color: #f8f9fa;">
+    <marquee behavior="scroll" direction="" loop="infinite"scrollamount="10" onmouseover="this.stop();" onmouseout="this.start();">
+    <div class="row flex-nowrap justify-content-center">
+        <div class="col-3 kkk p-0 " style="background-image: url(demo-restaurant-slider-01.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+            <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+                    <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                        <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                            <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+        <div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-02.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+            <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+                    <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                        <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                            <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+        <div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-05.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+            <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+                    <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                        <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                            <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+
+        <div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-04.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+            <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+                    <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                        <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                            <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+
+        <div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-03.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+            <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+                    <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                        <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                            <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+        <!-- 01 -->
+
+
+        <div class="col-3 kkk p-0 " style="background-image: url(demo-restaurant-slider-01.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+            <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+                    <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                        <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                            <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+        <div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-02.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+            <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+                    <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                        <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                            <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+        <div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-05.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+            <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+                    <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                        <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                            <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+
+        <div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-04.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+            <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+                    <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                        <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                            <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+
+        <div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-03.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+            <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+                    <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                        <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                            <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+        <div class="col-3 kkk p-0 " style="background-image: url(demo-restaurant-slider-01.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+            <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+                    <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                        <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                            <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+        <div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-02.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+            <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+                    <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                        <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                            <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+        <div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-05.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+            <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+                    <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                        <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                            <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+
+        <div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-04.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+            <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+                    <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                        <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                            <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+
+        <div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-03.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+            <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+                    <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                        <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                            <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+
+
+
+
+<!-- qqq -->
+<div class="col-3 kkk p-0 " style="background-image: url(demo-restaurant-slider-01.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+    <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+            <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                    <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                </div>
+            </div> 
+    </div>
+</div>
+
+<div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-02.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+    <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+            <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                    <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                </div>
+            </div> 
+    </div>
+</div>
+
+<div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-05.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+    <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+            <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                    <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                </div>
+            </div> 
+    </div>
+</div>
+
+
+<div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-04.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+    <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+            <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                    <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                </div>
+            </div> 
+    </div>
+</div>
+
+
+<div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-03.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+    <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+            <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                    <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                </div>
+            </div> 
+    </div>
+</div>
+
+<div class="col-3 kkk p-0 " style="background-image: url(demo-restaurant-slider-01.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+    <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+            <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                    <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                </div>
+            </div> 
+    </div>
+</div>
+
+<div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-02.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+    <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+            <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                    <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                </div>
+            </div> 
+    </div>
+</div>
+
+<div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-05.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+    <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+            <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                    <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                </div>
+            </div> 
+    </div>
+</div>
+
+
+<div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-04.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+    <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+            <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                    <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                </div>
+            </div> 
+    </div>
+</div>
+
+
+<div class="col-3 kkk p-0" style="background-image: url(demo-restaurant-slider-03.jpg);  background-size: cover; border: 2px solid red; background-position: center;">
+    <div class="w-100 h-100 d-flex justify-content-center   align-items-center jjj" style="background-color: rgba(9, 9, 9, 0.5);">
+            <div class=" rrr" style="border-radius: 100%; background-color: white;">
+                <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                    <span style="color: red; font-weight: bold;" class="text-center" >JUST <br> $35.00</span>
+                </div>
+            </div> 
+    </div>
+</div>
+
+    </div>
+    </div>
+
+    </marquee>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.ed{
+    margin-right: 2%;
+    animation-name: motion;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.ef{
+    margin-left: 2%;
+    margin-top: 15%;
+    animation-name: motion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes motion{
+    0%{}
+    50%{ margin-top: 100px;}
+}
+@media screen and (max-width: 1100px){
+    .ed, .ef {
+        display: none;
+    }
+}
+</style>
+
+
+
+
+
+<div class="container-fluid" style="background-color: #f9f6f3; padding-top: 70px; margin-top: 70px;">
+    <div class="container-fluid marq" style="position: absolute; margin-top: -140px;">
+        <div class="row  d-flex flex-nowrap h-5">
+            <marquee  behavior="scroll" direction="" loop="infinite"scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
+            <div class="col-12">
+                    <h1><span>AWESOME</span> <span class="ad" >EXPEREINCE</span> <span>CUISINE</span>  <span class="ad">DELICIOUS</span>
+                        <span><span style="visibility: hidden;">.</span>AWESOME</span> <span class="ad">EXPEREINCE</span> <span>CUISINE</span>  <span class="ad">DELICIOUS</span>
+                    </h1>     
+            </div>
+            </marquee>
+        </div>
+    </div>
+    <div class="row justify-content-end pt-3">
+        <div class="col ed" style="background-image: url(demo-restaurant-home-08.jpg); width: 300px; height: 220px; background-size: cover; position: absolute;"></div>
+    </div>
+    <div class="row justify-content-start align-content-end">
+        <div class="col ef" style="background-image: url(demo-restaurant-home-07.jpg); width: 300px; height: 240px; background-size: cover; position: absolute;"></div>
+    </div>
+    <div class="row justify-content-center row-cols-1">
+        <div class="col text-center pb-4">
+            <img src="demo-restaurant-home-quotes-icon.jpg" alt="" style="width: 100px; height: 100px; border-radius: 100%;">
+        </div>
+        <div class=" col-md-5 col-sm-10 text-center pb-4" style="font-size: 30px;">
+            <p style="margin-bottom: 0px;">Food for us comes from our relatives whether they have wings or fins or roots that is how we consider food has a culture It has history it has a story it has relationships.</p>
+        </div>
+        <div class="col text-center pb-4">
+            <p style="margin-bottom: 0px; color: #d39121;font-family: Schibsted Grotesk; line-height: 0;">Leoonel Money</p>
+        </div>
+        <div class="row align-items-center justify-content-center">
+            <div class=""  style="width: 140px; height: 140px; border-radius: 100%; background-image: url(avtar-33.jpg); background-size: cover;"></div>
+            <div class=""  style="width: 120px; height: 120px; border-radius: 100%; background-image: url(avtar-34.jpg); background-size: cover;"></div>
+            <div class=""  style="width: 100px; height: 100px; border-radius: 100%; background-image: url(avtar-35.jpg); background-size: cover;"></div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="container-fluid p-0" style="background-color: #f8f9fa;">
+    <div class="row align-items-center justify-content-center p-4" style="padding-bottom: 70px;">
+        <span class="w-auto text-end px-2 py-2">
+            <button style="background-color: #d39121; border: 0px; border-radius: 30px;" class="px-3 py-1"><i class="fa-solid fa-star" style="color: white; font-size: 13px;"></i><i class="fa-solid fa-star" style="color: white; font-size: 13px;"></i><i class="fa-solid fa-star" style="color: white; font-size: 13px;"></i><i class="fa-solid fa-star" style="color: white; font-size: 13px;"></i><i class="fa-solid fa-star" style="color: white; font-size: 13px;"></i></button>
+        </span>
+        <span class="w-auto text-end px-2 py-2" style="color: #8d8987; font-size: 13px;">  <span style="border-bottom: 1px solid  black;  color: #363535; font-family: Schibsted Grotesk;">25,000+ happy food lovers </span> <span style="font-family: Schibsted Grotesk;">visited our authentic restaurant.</span></span>
+    </div>
+</div>
+
+
+
+<!-- <div class="container-fluid">
+    <div class="row justify-content-around flex-wrap row-cols-1">
+        <div class="col-lg-3 col-md-5" style="background-image: url(demo-restaurant-tab-03.jpg); background-size: cover;">
+            <div class="row flex-column justify-content-between align-content-start" style="border: 2px solid red;" >
+                <div class="col-12 bg-primary p-0">
+                    <button class="py-1 px-3" style="font-size: 12px;">RESTURANT</button>
+                </div>
+                <div class="col-12 bg-danger p-0 fs-5">
+                    <span class="">NEVER EAT MORE <br> THAN YOU CAN LIFE</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-5" style="background-image: url(demo-restaurant-tab-03.jpg); background-size: cover;">
+            <div class="row flex-column justify-content-between align-content-start p-5 ratio-16x16" style="border: 2px solid red;" >
+                <div class="col-12 bg-primary p-0 mb-5">
+                    <button class="py-1 px-3" style="font-size: 12px;">RESTURANT</button>
+                </div>
+                <div class="col-12 bg-danger p-0 fs-5 mt-5">
+                    <span class="">NEVER EAT MORE <br> THAN YOU CAN LIFE</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-5" style="background-image: url(demo-restaurant-tab-03.jpg); background-size: cover;">
+            <div class="row flex-column justify-content-between align-content-start p-5 ratio-16x16" style="border: 2px solid red;" >
+                <div class="col-12 bg-primary p-0">
+                    <button class="py-1 px-3" style="font-size: 12px;">RESTURANT</button>
+                </div>
+                <div class="col-12 bg-danger p-0 fs-5">
+                    <span class="">NEVER EAT MORE <br> THAN YOU CAN LIFE</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+
+
+<div class="container-fluid" style="padding: 10px; padding-top: 60px; padding-bottom: 0px; background-color: #f8f9fa;">
+    <div class="row flex-column align-content-center justify-content-center w-100 p-0">
+        <span style="font-size: 10px; color: red; font-family: Schibsted Grotesk; line-height: 0; font-weight: bold;" class="col text-center">-FROM OUR BLOG-</span>
+        <span style="font-size: 50px;" class="col text-center">RECENT ARTICLES</span>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+    @media screen and (max-width: 992px){
+        .card {
+            width: 270px;
+            height: 320px;
+            /* background-color: rebeccapurple; */
+            /* border: 10px solid black; */
+        }
+    }
+    @media screen and (max-width: 846px){
+        .card {
+            width: 240px;
+            height: 270px;
+            /* background-color: rebeccapurple; */
+            /* border: 10px solid black; */
+        }
+    }
+    @media screen and (max-width: 1107px){
+        .dis {
+            display: none;
+        }
+    }
+
+</style>
+<style>
+.bb {
+    background-color: white;
+    border: 1px solid white;
+
+}
+.cc {
+    color: white;
+    font-weight: bold;
+    font-family: "Schibsted Grotesk", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+}
+
+</style>
+
+<style>
+    .hh:hover {
+    background-color: rgba(7, 7, 7,0.5);
+    opacity: 50;
+}
+    .hh:hover .bb {
+    background-color: transparent;
+    color: white;
+ 
+
+}
+    .hh:hover .nn {
+    background-color: transparent;
+    color: white;
+ 
+
+}
+</style>
+
+
+<div class="container-fluid" style="background-color: #f9f6f3;">
+    <div class="row justify-content-around p-5">
+        <div class="col-lg-3 col-md-5 col-sm-12 card my-4 px-0 nn" style="background-image: url(demo-restaurant-slider-05.jpg); background-size: cover;" >
+            <div class="row flex-column justify-content-around align-items-around w-100 h-100 hh py-0 my-0 mx-0" style="border: 2px solid red;" >
+                <div class="col-12">
+                    <button class="py-1 px-3 bb " style="font-size: 12px; font-family: Schibsted Grotesk;">RESTURANT</button>
+                </div>
+                <div class="col-12 cc" style="font-size: 25px;">
+                    <span class="">NEVER EAT MORE <br> THAN YOU CAN LIFE</span>
+                </div>
+            </div>
+        </div>  
+        <div class="col-lg-3 card col-md-5  col-sm-12 my-4 mx-5 px-0" style="background-image: url(demo-restaurant-slider-01.jpg); background-size: cover;" >
+            <div class="row flex-column justify-content-around align-items-around w-100 h-100 hh mx-0" style="border: 2px solid red;" >
+                <div class="col-12">
+                    <button class="py-1 px-3 bb" style="font-size: 12px; font-family: Schibsted Grotesk;">RESTURANT</button>
+                </div>
+                <div class="col-12 cc" style="font-size: 25px;">
+                    <span class="">NEVER EAT MORE <br> THAN YOU CAN LIFE</span>
+                </div>
+            </div>
+        </div>  
+        <div class="col-lg-3 card col-md-5 col-sm-12 my-4 hh px-0" style="background-image: url(demo-restaurant-slider-02.jpg); background-size: cover;" >
+            <div class="row flex-column justify-content-around align-items-around w-100 h-100 hh mx-0" style="border: 2px solid red;" >
+                <div class="col-12">
+                    <button class="py-1 px-3 bb" style="font-size: 12px; font-family: Schibsted Grotesk;">RESTURANT</button>
+                </div>
+                <div class="col-12 cc" style="font-size: 25px;">
+                    <span class="">NEVER EAT MORE <br> THAN YOU CAN LIFE</span>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- flex-wrap/nowrap/wrap-reverse
+works when to col increse 12
+
+
+<div class="container" style="border: 2px solid red;">
+    <div class="row flex-wrap">
+        <div class="col-3" style="background-color: aqua;">A</div>
+        <div class="col-3" style="background-color: orangered;">B</div>
+        <div class="col-3" style="background-color: green;">C</div>
+        <div class="col-4" style="background-color: yellow;">D</div>
+    </div>
+</div>
+
+
+
+
+flex-row/row-reverse/column/column-reverse
+
+<div class="container" style="border: 2px solid red;">
+    <div class="row flex-column">
+        <div class="col" style="background-color: aqua;">A</div>
+        <div class="col" style="background-color: orangered;">B</div>
+        <div class="col" style="background-color: green;">C</div>
+        <div class="col" style="background-color: yellow;">D</div>
+    </div>
+</div> -->
+
+
+<style>
+    .fi{
+    margin-top: 170px;
+}
+        @media screen and (max-width: 800px){
+        .fff {
+            display: none;
+        }
+        .fi{
+    margin-top: 0px;
+    background-color: #f9f6f3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+    }
+
+
+</style>
+
+
+<div class="footer container-fluid">
+    <div class="row fff justify-content-center">
+        <div class=""  style="background-image: url(demo-restaurant-home-footer-bg.jpg); background-size: cover; background-position: top; position: absolute; height: 350px;z-index: -1; max-width: 1200px;"></div>
+    </div>
+    <div class="row justify-content-around fi">
+        <div class="col-lg-3 col-sm-6">
+            <div class="row flex-column justify-content-center align-items-center" style="height: 150px; background-color: transparent;">
+                <i class="fa-solid fa-message col-12 text-center" style="font-size: 30px;"></i>
+                <span class="col-12 text-center py-2" style="font-size: 20px;">ABOUT RESTURANT </span>
+                <span class="col-12 text-center" style="color: #8d8987; font-family: Schibsted Grotesk; font-size: 15px;">Enjoy a wonderful cafe</span>
+                <span class="col-12 text-center"  style="color: #8d8987; font-family: Schibsted Grotesk; font-size: 15px;">dining experience</span>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="row flex-column justify-content-center align-items-center" style="height: 150px; background-color: transparent">
+                <i class="fa-solid fa-phone col-12 text-center" style="font-size: 30px;"></i>
+                <span class="col-12 text-center py-2" style="font-size: 20px;">LET'S TALK</span>
+                <span class="col-12 text-center" style="color: #8d8987; font-family: Schibsted Grotesk; font-size: 15px;">Phone: 1-800-222-000</span>
+                <span class="col-12 text-center" style="color: #8d8987; font-family: Schibsted Grotesk; font-size: 15px;">Fax: 1-800-222-002</span>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="row flex-column justify-content-center align-items-center" style="height: 150px; background-color: transparent;">
+                <i class="fa-solid fa-envelope col-12 text-center" style="font-size: 30px;"></i>
+                <span class="col-12 text-center py-2" style="font-size: 20px;">BOOK A TABLE</span>
+                <span class="col-12 text-center" style="color: #8d8987;  font-family: Schibsted Grotesk; font-size: 15px;">info@yourdomain.com</span>
+                <span class="col-12 text-center" style="color: #8d8987; font-family: Schibsted Grotesk; font-size: 15px;">hr@yourdomain.com</span>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="row flex-column justify-content-center align-items-center" style="height: 150px; background-color: transparent;">
+                <i class="fa-solid fa-location-dot col-12 text-center" style="font-size: 30px;"></i>
+                <span class="col-12 text-center py-2" style="font-size: 20px;">CONTACT US</span>
+                <span class="col-12 text-center" style="color: #8d8987; font-family: Schibsted Grotesk; font-size: 15px;">Lorem ipsum consectetur</span>
+                <span class="col-12 text-center" style="color: #8d8987; font-family: Schibsted Grotesk; font-size: 15px;">adipiscing onsectetur.</span>
+            </div>
+        </div>        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid">
+    <div class="row align-items-center" style="padding: 20px; border-top: 1px solid black; background-color: #f9f6f3;">
+        <div class="col-md-3 col-6 order-md-0 order-2 text-center text-md-start" style="font-size: 13px;">
+            <span style="font-family: Schibsted Grotesk;">© Copyright 2024 <span style="font-weight: bold; border-bottom: 1px solid black; font-family: Schibsted Grotesk;">Crafto</span></span>
+        </div>
+        <div class="col-md-6 col-12  text-center mb-md-0 mb- p-0 m-0 pb-3">
+            <img src="demo-restaurant-logo-black.webp" alt="" style="width: 150px;">
+        </div>
+        <div class="col-md-3 col-6 text-center text-md-end">
+            <i class="fa-brands fa-twitter" style="font-size: 20px;"></i>
+            <i class="fa-brands fa-facebook px-2" style="font-size: 20px;"></i>
+            <i class="fa-solid fa-globe px-2" style="font-size: 20px;"></i>
+            <i class="fa-brands fa-instagram" style="font-size: 20px;"></i>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- <div class="container-fluid  hyhy d-flex justify-content-end" style="position: absolute; top: 0px;">
+
+    <div class="row flex-column justify-content-evenly align-items-around align-content-center py-5" style="height: 100vh; width: 70vw; background-color: #222222; color: white;  z-index: 1000;">
+        <span class="lili col-10 py-2">HOME</span>
+        <span class="lili col-10 py-2">ABOUT</span>
+        <span class="lili col-10 py-2">MENU</span>
+        <span class="lili col-10 py-2">STORY</span>
+        <span class="lili col-10 py-2">GALLERY</span>
+        <span class="lili col-10 py-2">CHEFS</span>
+        <span class="lili col-10 py-2">BLOG</span>
+        <span class="lili col-10 py-2">CONTACT</span>
+    </div>
+</div> -->
+
+
+
+
+
+</body>
+</html>
